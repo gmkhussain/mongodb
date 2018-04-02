@@ -8,3 +8,8 @@ https://www.mongodb.com/
 
 
 
+## How to configure MongoDB with localhost
+* Download .dll file and paste here. I:\xampp\php\ext
+* Open php.ini file and find this content <code>; Windows Extensions</code> add this line <code>extension=php_mongodb.dll</code>
+* Open browers and visit this link <code>localhost/dashboard/phpinfo.php</code>
+* If found <b>MongoDB</b> support its running successfully
